@@ -1,0 +1,86 @@
+
+
+.ql-container {
+  border: 1px solid #3e3e3e !important;
+}
+
+.ql-toolbar {
+    border: 1px solid #3e3e3e !important;
+}
+
+.ql-link:hover {
+  color: #3e3e3e !important;
+}
+
+.ql-picker-options {
+  border: 1px solid #3e3e3e !important;
+  background-color: #3e3e3e !important;
+  color: #ffffff !important;
+}
+
+.render {
+  font-size: 0.9em !important;
+}
+
+.render > h1 {
+  font-size: 1.6rem;  /* Tamaño de fuente */
+}
+
+.render > h2 {
+  font-size: 1.3rem;  /* Tamaño de fuente */
+}
+/* Estilo para listas no ordenadas (ul) */
+.render > ul {
+  list-style-type: disc; /* Muestra viñetas en la lista */
+  padding-left: 1.5rem;  /* Añade espacio de sangría a la izquierda */
+  margin-bottom: 1rem;   /* Espacio inferior entre listas y otros elementos */
+}
+
+/* Estilo para listas ordenadas (ol) */
+.render > ol {
+  list-style-type: decimal; /* Muestra números en la lista */
+  padding-left: 1.5rem;     /* Añade espacio de sangría a la izquierda */
+  margin-bottom: 1rem;      /* Espacio inferior entre listas y otros elementos */
+}
+
+/* Estilo para elementos de lista (li) */
+.render > li {
+  margin-bottom: 0.5rem;      /* Espacio entre cada elemento de la lista */
+  color: #e5e7eb;             /* Color de texto gris claro */
+  font-size: 1rem;            /* Tamaño de fuente */
+  line-height: 1.5;           /* Altura de línea para mejor legibilidad */
+}
+
+/* Estilo opcional para listas anidadas (ul dentro de li) */
+.render ul ul {
+  list-style-type: circle;   /* Viñetas circulares para listas anidadas */
+  padding-left: 1rem;        /* Sangría adicional para listas anidadas */
+}
+
+.render ol ol {
+  list-style-type: lower-alpha; /* Números con letras minúsculas para listas anidadas */
+  padding-left: 1rem;
+}
+
+
+.ql-video {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+
+.ql-align-center {
+  text-align: center;
+}
+
+.ql-align-right {
+  text-align: right;
+}
+
+.ql-align-justify {
+  text-align: justify;
+}
+
+.ql-align-left {
+  text-align: left;
+}
